@@ -1,0 +1,9 @@
+---
+applications:
+- name: scs-netflix
+  memory: 1G
+  instances: 1
+  random-route: true
+  path: target/scs-netflix-0.0.1-SNAPSHOT.jar
+  services:
+  - config-server
