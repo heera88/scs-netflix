@@ -7,3 +7,4 @@ applications:
   path: target/scs-netflix-0.0.1-SNAPSHOT.jar
   services:
   - config-server
+  - service-registry
